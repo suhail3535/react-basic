@@ -1,15 +1,17 @@
 
 import "./App.css"
 import Counter from "./components/Counter"
-import Toggler from "./components/Toggler"
-import Welcome from "./components/Welcome"
+import Product from "./components/Product"
+// import Toggler from "./components/Toggler"
+// import Welcome from "./components/Welcome"
 
 function App() {
   return (
     <div>
-    <Welcome/>
+    {/* <Welcome/> */}
    <Counter/>
-   <Toggler/>
+   {/* <Toggler/> */}
+   <Product/>
     </div>
   )
 }
